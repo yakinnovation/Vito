@@ -11,7 +11,10 @@ $darken: #151111;
 
 $primary: #c49b63;
 $secondary: #f8b500;
-
+owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+	-ms-touch-action: auto;
+	touch-action: auto;
+}
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -870,7 +873,7 @@ h1, h2, h3, h4, h5,
 			z-index: -1;
 		}
 		h3{
-			width: calc(100% - 80px;);
+			width: calc(100% - 80px);
 			font-size: 18px;
 			span{
 				background: $darken;
