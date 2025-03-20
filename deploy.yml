@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./  # Adjust if needed
-          server-dir: /public_html/  # Adjust based on your setup
+          server-dir: /vitoline.ma/  # Adjust based on your setup
